@@ -37,7 +37,7 @@ export const PROJECTS = [
     links: [
       {
         id: 0,
-        source: "music-school/music-school.html",
+        source: "https://keithholler.github.io/music-school/music-school.html",
         text: "Project",
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/music-school",
