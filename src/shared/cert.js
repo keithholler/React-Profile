@@ -28,5 +28,23 @@ export const CERTS = [
         name:'Design Thinking',
         image: "./assets/images/certifications/DesignThinking.pdf",
         image2: "./assets/images/certifications/DesignThinking.jpg"
+    },
+    {
+        id: 5,
+        name:'React',
+        image: "./assets/images/certifications/React-React_Course_Certificate_3572.pdf",
+        image2: "./assets/images/certifications/React-React_Course_Certificate_3572.jpg"
+    },
+    {
+        id: 6,
+        name:'React Native',
+        image: "./assets/images/certifications/React_Native_Course_Certificate_4045.pdf",
+        image2: "./assets/images/certifications/React_Native_Course_Certificate_4045.jpg"
+    },
+    {
+        id: 7,
+        name:'Full Stack Web and App Development',
+        image: "./assets/images/certifications/Front_End_Web_and_Mobile_Development_Certificate_4046.pdf",
+        image2: "./assets/images/certifications/Front_End_Web_and_Mobile_Development_Certificate_4046.jpg"
     }
 ]

@@ -7,22 +7,7 @@ function Footer(props) {
         <div className="container-fluid">
           <hr />
           <div className="row justify-content-md-center">
-            <div className="col-4 col-sm-2">
-              <h5>Links</h5>
-              <ul className="list-unstyled">
-                <li><a href="index.html">Home</a></li>
-                <br />
-                <li><a href="#about">About</a></li>
-                <br />
-                <li><a href="#Project">Projects</a></li>
-                <br />
-                <li>
-                  <a href="mailto:robert.keith.holler.@gmail.com" target="_blank"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
+           
             <div className="col-6 col-sm-5 text-center">
               <h5>Social</h5>
               <a
@@ -52,7 +37,7 @@ function Footer(props) {
                 className="btn btn-link"
                 href="mailto:robert.keith.holler.@gmail.com"
                 ><i className="fa fa-envelope-o"></i>
-                robert.keith.holler.@gmail.com</a
+                {' '}robert.keith.holler.@gmail.com</a
               >
             </div>
           </div>

@@ -6,7 +6,9 @@ html,body,#root,.App {
   margin: 0;
   padding: 0;
 }
-
+.navcolor{
+  color:white;
+}
 .navBar {
   padding: 0;
   margin: 0;

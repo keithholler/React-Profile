@@ -42,7 +42,7 @@ export const PROJECTS = [
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/music-school",
         text2: "GitHub",
-        source3: "wireframes/music-wireframe.pdf",
+        source3: "https://keithholler.github.io/wireframes/music-wireframe.pdf",
         text3: "Wireframe",
       },
     ],
@@ -84,7 +84,7 @@ export const PROJECTS = [
     links: [
       {
         id: 0,
-        source: "nucamp-project/home.html",
+        source: "https://keithholler.github.io/nucamp-project/home.html",
         text: "Project",
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/nucamp-project",
@@ -130,7 +130,7 @@ export const PROJECTS = [
       {
         id: 0,
         name: "Color Guessing Game",
-        source: "games/color-guessing-game.html",
+        source: "https://keithholler.github.io/games/color-guessing-game.html",
         text: "Color Guessing Game",
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/games",
@@ -139,7 +139,7 @@ export const PROJECTS = [
       {
         id: 1,
         name: "Dice Rolling Game",
-        source: "games/dice-game.html",
+        source: "https://keithholler.github.io/games/dice-game.html",
         text: "Dice Rolling Game",
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/games",
@@ -148,7 +148,7 @@ export const PROJECTS = [
       {
         id: 2,
         name: "Matching Game",
-        source: "games/matching-game.html",
+        source: "https://keithholler.github.io/games/matching-game.html",
         text: "Matching Game",
         source2:
           "https://github.com/keithholler/keithholler.github.io/tree/master/games",
@@ -159,7 +159,7 @@ export const PROJECTS = [
   {
     id: 3,
     typename: "Personal Profile",
-    projectname: "",
+    projectname: "(Non React)",
     image: "./assets/images/profilecardfront.jpg",
     about: "Personal Profile website to present personal and school projects.",
     logos: [
@@ -193,10 +193,10 @@ export const PROJECTS = [
     links: [
       {
         id: 0,
-        source: "music-school/music-school.html",
+        source: "https://keithholler.github.io/",
         text: "Project",
         source2:
-          "https://github.com/keithholler/keithholler.github.io/tree/master/music-school",
+          "https://github.com/keithholler/keithholler.github.io",
         text2: "GitHub",
       },
     ],
@@ -204,7 +204,7 @@ export const PROJECTS = [
   {
     id: 4,
     typename: "React Project",
-    projectname: "Coming Soon",
+    projectname: "Camping Site",
     image: "./assets/images/reactsoon.jpg",
     about: "React Project",
     logos: [
@@ -225,8 +225,8 @@ export const PROJECTS = [
       },
       {
         id: 3,
-        image: "./assets/images/jquerylogo.png",
-        text: "JQuery",
+        image: "./assets/images/reduxlogo.png",
+        text: "Redux",
       },
       {
         id: 4,
@@ -242,10 +242,55 @@ export const PROJECTS = [
     links: [
       {
         id: 0,
-        source: "music-school/music-school.html",
+        source: "https://keithholler.github.io/pics/React%20App%20-%20Google%20Chrome%202020-10-03%2011-22-57.mp4",
         text: "Project",
         source2:
-          "https://github.com/keithholler/keithholler.github.io/tree/master/music-school",
+          "https://github.com/keithholler/React",
+        text2: "GitHub",
+      },
+    ],
+  },
+  {
+    id: 5,
+    typename: "Personal Profile",
+    projectname: "(With React)",
+    image: "./assets/images/profilereactfront.jpg",
+    about: "Personal Profile website to present personal and school projects.",
+    logos: [
+      {
+        id: 0,
+        image: "./assets/images/htmllogo.png",
+        text: "HTML",
+      },
+      {
+        id: 1,
+        image: "./assets/images/csslogo.png",
+        text: "CSS",
+      },
+      {
+        id: 2,
+        image: "./assets/images/javascriptlogo.png",
+        text: "Javascript",
+      },
+      {
+        id: 3,
+        image: "./assets/images/reactlogo.png",
+        text: "React",
+      },
+      {
+        id: 4,
+        image: "./assets/images/bootstraplogo.png",
+        text: "Bootstrap",
+      },
+     
+    ],
+    links: [
+      {
+        id: 0,
+        source: "https://keithholler.github.io/React-Profile",
+        text: "Project",
+        source2:
+          "https://github.com/keithholler/React-Profile",
         text2: "GitHub",
       },
     ],
