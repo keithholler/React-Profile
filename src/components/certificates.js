@@ -40,6 +40,7 @@ class Certificates extends Component {
     super(props);
     this.state = {
       certs: CERTS,
+      width: window.innerWidth
     };
   }
 
@@ -57,6 +58,45 @@ class Certificates extends Component {
         </SwiperSlide>
       );
     });
+
+    if(this.state.width <=1000 ){
+      return (
+        <div className="container" id="Certifications">
+          <div className="row row-content">
+            <div className="col-12 mx-auto">
+              <h2 className="text-white text-center">Certifications</h2>
+            </div>
+          </div>
+          <div className="row row-content-topborder">
+            <div className="col mx-auto">
+              {/* <!-- Swiper --> */}
+              <div className="swiper-container mx-auto">
+                <div className="swiper-wrapper mx-auto">
+                
+                  <Swiper
+                    spaceBetween={50}                    
+                    slidesPerView={1}
+                    mousewheel={true}
+                    loop={true}
+                    autoplay={true}
+                    effect={"coverflow"}
+                    rotate={50}
+                    depth={100}
+                    speed={2000}
+                    navigation={true}
+                    pagination={{ clickable: true }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log("slide change")}
+                  >
+                    {certcards}
+                  </Swiper>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }else{
     return (
       <div className="container" id="Certifications">
         <div className="row row-content">
@@ -69,8 +109,10 @@ class Certificates extends Component {
             {/* <!-- Swiper --> */}
             <div className="swiper-container mx-auto">
               <div className="swiper-wrapper mx-auto">
+              
                 <Swiper
                   spaceBetween={50}
+                  
                   slidesPerView={2}
                   mousewheel={true}
                   loop={true}
@@ -92,6 +134,7 @@ class Certificates extends Component {
         </div>
       </div>
     );
+    }
   }
 }
 
