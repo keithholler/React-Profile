@@ -25,7 +25,7 @@ class ProjectCard extends Component {
                   id="music"
                   className="card-img-top rounded-lg"
                   src={project.image}
-                  alt="Welcome To Music"
+                  alt={project.projectname}
                 />
                 <h3 className="projectreason text-nowrap">
                   {project.typename}
@@ -45,8 +45,7 @@ class ProjectCard extends Component {
                         {project.logos.map((logo) => (
                           <span key={logo.id} className="spanskills">
                             {" "}
-                            <img className="logoskills" src={logo.image} />
-                            {" "}
+                            <img className="logoskills" src={logo.image} />{" "}
                             {logo.text}
                           </span>
                         ))}
@@ -62,30 +61,25 @@ class ProjectCard extends Component {
                       <ul className="text-center">
                         {project.links.map((link) => (
                           <span key={link.id}>
-                         
                             <li>
                               <a href={link.source} target="_blank">
                                 {link.text}
                               </a>
-                            </li>
-                            {" "}
+                            </li>{" "}
                             <li> | </li>{" "}
                             <li>
                               <a href={link.source2} target="_blank">
                                 {link.text2}
                               </a>
-                            </li>
-                            {" "}
-                            <li>{link.source3 ? ' | ' : ''} </li>{" "}
+                            </li>{" "}
+                            <li>{link.source3 ? " | " : ""} </li>{" "}
                             <li>
                               <a href={link.source3} target="_blank">
                                 {link.text3}
                               </a>
                             </li>
-
                           </span>
                         ))}
-                        
                       </ul>
                     </div>
                   </div>
@@ -101,7 +95,9 @@ class ProjectCard extends Component {
       <div className="container">
         <div className="row row-content">
           <div className="col-12 mx-auto">
-            <h2 className="text-white text-center" id="Projects">Projects</h2>
+            <h2 className="text-white text-center" id="Projects">
+              Projects
+            </h2>
           </div>
         </div>
         <div className="row row-content justify-content-around">

@@ -1,10 +1,7 @@
 import React from "react";
-import {
-    Button
-    } from "reactstrap";
-    import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-    
 const Me = (props) => {
   return (
     <div className="container-fluid bg-dark" id="about">
@@ -52,7 +49,7 @@ const Me = (props) => {
           data-aos-duration="1000"
         >
           <div className="col col-12 mx-auto text-center">
-            <a href="./assets/resume/Resume-Robert-Keith-Holler.pdf">
+            <a href="./assets/resume/Resume-Robert-Keith-Holler1.pdf">
               <Button type="button" size="lg" className="text-nowrap resumebtn">
                 <div>View Resume</div>
               </Button>

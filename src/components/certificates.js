@@ -2,7 +2,16 @@ import React, { Component } from "react";
 import { CERTS } from "../shared/cert";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Swiper core and required components
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay, EffectCube,EffectCoverflow } from "swiper";
+import SwiperCore, {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Mousewheel,
+  Autoplay,
+  EffectCube,
+  EffectCoverflow,
+} from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,7 +24,16 @@ import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 
 // install Swiper components
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Mousewheel,Autoplay, EffectCube,EffectCoverflow]);
+SwiperCore.use([
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Mousewheel,
+  Autoplay,
+  EffectCube,
+  EffectCoverflow,
+]);
 
 class Certificates extends Component {
   constructor(props) {
@@ -26,16 +44,17 @@ class Certificates extends Component {
   }
 
   render() {
+    
     const certcards = this.state.certs.map((cert) => {
       return (
-       
         <SwiperSlide key={cert.id} className="swiper-slide text-center">
           {cert.name}
           <a className="inner" href={cert.image}>
-            <img src={cert.image2} />
+            <img src={cert.image2} 
+            alt={cert.name}
+            />
           </a>
         </SwiperSlide>
-       
       );
     });
     return (
@@ -49,29 +68,28 @@ class Certificates extends Component {
           <div className="col mx-auto">
             {/* <!-- Swiper --> */}
             <div className="swiper-container mx-auto">
-            <div className="swiper-wrapper mx-auto">
-              <Swiper
-                spaceBetween={50}
-                slidesPerView={2}
-                mousewheel={true}
-                loop={true}
-                autoplay={true}
-                effect={'coverflow'}
-                rotate={50}
-                depth={100}
-                speed={2000}
-                navigation={true}
-                pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
-              >
-                {certcards}
-              </Swiper>
+              <div className="swiper-wrapper mx-auto">
+                <Swiper
+                  spaceBetween={50}
+                  slidesPerView={2}
+                  mousewheel={true}
+                  loop={true}
+                  autoplay={true}
+                  effect={"coverflow"}
+                  rotate={50}
+                  depth={100}
+                  speed={2000}
+                  navigation={true}
+                  pagination={{ clickable: true }}
+                  onSwiper={(swiper) => console.log(swiper)}
+                  onSlideChange={() => console.log("slide change")}
+                >
+                  {certcards}
+                </Swiper>
               </div>
-              </div>
+            </div>
           </div>
         </div>
-        
       </div>
     );
   }
