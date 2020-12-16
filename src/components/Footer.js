@@ -11,21 +11,21 @@ function Footer(props) {
             <a
               className="btn btn-social-icon btn-facebook"
               href="https://www.facebook.com/keith.holler.7"
-              target="_blank"
+              
             >
               <i className="fa fa-facebook" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-linkedin"
               href="https://www.linkedin.com/in/robert-keith-holler "
-              target="_blank"
+             
             >
               <i className="fa fa-linkedin" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-github"
               href="https://github.com/keithholler"
-              target="_blank"
+              
             >
               <i className="fa fa-github" />
             </a>{" "}

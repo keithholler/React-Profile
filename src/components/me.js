@@ -20,7 +20,7 @@ const Me = (props) => {
             data-aos="fade-up"
             data-aos-duration="1000"
             src="./assets/images/me.jpg"
-            alt="profile picture"
+            alt="profile of developer"
           />
 
           <h1

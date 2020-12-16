@@ -45,7 +45,7 @@ class ProjectCard extends Component {
                         {project.logos.map((logo) => (
                           <span key={logo.id} className="spanskills">
                             {" "}
-                            <img className="logoskills" src={logo.image} />{" "}
+                            <img className="logoskills" src={logo.image}  alt="Skills"/>{" "}
                             {logo.text}
                           </span>
                         ))}
@@ -62,19 +62,19 @@ class ProjectCard extends Component {
                         {project.links.map((link) => (
                           <span key={link.id}>
                             <li>
-                              <a href={link.source} target="_blank">
+                              <a href={link.source} >
                                 {link.text}
                               </a>
                             </li>{" "}
                             <li> | </li>{" "}
                             <li>
-                              <a href={link.source2} target="_blank">
+                              <a href={link.source2} >
                                 {link.text2}
                               </a>
                             </li>{" "}
                             <li>{link.source3 ? " | " : ""} </li>{" "}
                             <li>
-                              <a href={link.source3} target="_blank">
+                              <a href={link.source3} >
                                 {link.text3}
                               </a>
                             </li>
