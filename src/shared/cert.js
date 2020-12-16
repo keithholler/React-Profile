@@ -53,20 +53,5 @@ export const CERTS = [
     image2:
       "./assets/images/certifications/Front_End_Web_and_Mobile_Development_Certificate_4046.jpg",
   },
-  {
-    id: 8,
-    name: "NodeJS, Express, & MongoDB",
-    image:
-      "./assets/images/certifications/NodeJS_Express_and_MongoDB_Course_Certificate_4483.pdf",
-    image2:
-      "./assets/images/certifications/NodeJS_Express_and_MongoDB_Course_Certificate_4483.jpg",
-  },
-  {
-    id: 9,
-    name: "Full Stack Web and App Development",
-    image:
-      "./assets/images/certifications/Full_Stack_Web_and_Mobile_Development_Certificate_4482.pdf",
-    image2:
-      "./assets/images/certifications/Full_Stack_Web_and_Mobile_Development_Certificate_4482.jpg",
-  },
+  
 ];
