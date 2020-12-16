@@ -57,9 +57,9 @@ export const CERTS = [
     id: 8,
     name: "NodeJS, Express, & MongoDB",
     image:
-      "./assets/images/certifications/NodeJS,_Express_and_MongoDB-NodeJS_Express_and_MongoDB_Course_Certificate_4483.pdf",
+      "./assets/images/certifications/NodeJS_Express_and_MongoDB_Course_Certificate_4483.pdf",
     image2:
-      "./assets/images/certifications/NodeJS,_Express_and_MongoDB-NodeJS_Express_and_MongoDB_Course_Certificate_4483.jpg",
+      "./assets/images/certifications/NodeJS_Express_and_MongoDB_Course_Certificate_4483.jpg",
   },
   {
     id: 9,
