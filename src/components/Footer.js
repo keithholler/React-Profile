@@ -6,7 +6,7 @@ function Footer(props) {
       <div className="container-fluid">
         <hr />
         <div className="row justify-content-md-center">
-          <div className="col-6 col-sm-5 text-center">
+          <div className="col-sm-5 text-center">
             <h5>Social</h5>
             <a
               className="btn btn-social-icon btn-facebook"

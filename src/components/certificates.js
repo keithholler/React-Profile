@@ -44,6 +44,9 @@ class Certificates extends Component {
     };
   }
 
+ 
+
+
   render() {
     
     const certcards = this.state.certs.map((cert) => {
@@ -58,8 +61,9 @@ class Certificates extends Component {
         </SwiperSlide>
       );
     });
-
+   
     if(this.state.width <=1000 ){
+    
       return (
         <div className="container" id="Certifications">
           <div className="row row-content">
@@ -96,7 +100,8 @@ class Certificates extends Component {
           </div>
         </div>
       );
-    }else{
+    }else if (this.state.width >1000 ){
+      console.log(this.state.width)
     return (
       <div className="container" id="Certifications">
         <div className="row row-content">
