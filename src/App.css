@@ -324,7 +324,7 @@ img {
 .projectreason {
   font-weight: 900;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 40%;
   left: 50%;
@@ -333,7 +333,7 @@ img {
 .projecttitle {
   font-weight: 900;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 50%;
   left: 50%;
