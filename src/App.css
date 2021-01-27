@@ -13,7 +13,8 @@ html,body,#root,.App {
   padding: 0;
   margin: 0;
   background-color: #424242;
-  opacity: 0.9;
+  opacity: 1;
+  
 }
 
 .logo {

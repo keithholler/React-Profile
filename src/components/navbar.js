@@ -22,8 +22,8 @@ const NavBar = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div className="navBar ">
-      <Navbar color="faded" light expand="md">
+    <div className="navBar">
+      <Navbar color="faded" light expand="md" style={{ padding: "0px 16px" }}>
         <NavbarBrand
           href="https://keithholler.github.io/React-Profile/"
           className="mr-auto"

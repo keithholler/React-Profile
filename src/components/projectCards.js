@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { PROJECTS } from "../shared/projects";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Zoom from "react-reveal/Zoom";
 class ProjectCard extends Component {
   constructor(props) {
     super(props);
@@ -43,9 +44,16 @@ class ProjectCard extends Component {
                     <div className="card-body">
                       <h5 className="text-dark text-center">
                         {project.logos.map((logo) => (
-                          <span key={logo.id} className="spanskills">
+                          <span
+                            key={logo.id}
+                            className="spanskills text-nowrap"
+                          >
                             {" "}
-                            <img className="logoskills" src={logo.image}  alt="Skills"/>{" "}
+                            <img
+                              className="logoskills"
+                              src={logo.image}
+                              alt="Skills"
+                            />{" "}
                             {logo.text}
                           </span>
                         ))}
@@ -62,21 +70,15 @@ class ProjectCard extends Component {
                         {project.links.map((link) => (
                           <span key={link.id}>
                             <li>
-                              <a href={link.source} >
-                                {link.text}
-                              </a>
+                              <a href={link.source}>{link.text}</a>
                             </li>{" "}
                             <li> | </li>{" "}
                             <li>
-                              <a href={link.source2} >
-                                {link.text2}
-                              </a>
+                              <a href={link.source2}>{link.text2}</a>
                             </li>{" "}
                             <li>{link.source3 ? " | " : ""} </li>{" "}
                             <li>
-                              <a href={link.source3} >
-                                {link.text3}
-                              </a>
+                              <a href={link.source3}>{link.text3}</a>
                             </li>
                           </span>
                         ))}
@@ -101,7 +103,7 @@ class ProjectCard extends Component {
           </div>
         </div>
         <div className="row row-content justify-content-around">
-          {projectcard}
+          <Zoom>{projectcard}</Zoom>
         </div>
       </div>
     );
