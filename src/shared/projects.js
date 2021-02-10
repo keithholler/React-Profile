@@ -6,7 +6,6 @@ export const PROJECTS = [
     image: "./assets/images/petbookfront.png",
     about: " Petbook is a way to share pet pictures and also find lost pets.",
     logos: [
-     
       {
         id: 0,
         image: "./assets/images/csslogo.png",
@@ -45,7 +44,6 @@ export const PROJECTS = [
     image: "./assets/images/ikeafront.png",
     about: "Re-created the home page of IKEA with React and Bootstrap",
     logos: [
-     
       {
         id: 0,
         image: "./assets/images/csslogo.png",
@@ -83,9 +81,9 @@ export const PROJECTS = [
     typename: "LUA Corona SDK",
     projectname: "Spirdy",
     image: "./assets/images/spirdyfront.png",
-    about: "In collaboration with another colleague, created a mobile game using Corona SDK to challange our selves in learning a new programming language",
+    about:
+      "In collaboration with another colleague, created a mobile game using Corona SDK to challange our selves in learning a new programming language",
     logos: [
-     
       {
         id: 0,
         image: "./assets/images/coronaLogo.png",
@@ -100,61 +98,17 @@ export const PROJECTS = [
     links: [
       {
         id: 0,
-        source: "https://play.google.com/store/apps/details?id=com.orphinsoftwares.spirdy&ah=WZjXGXTEoDpXkecGBTK4ojEMpdE",
+        source:
+          "https://play.google.com/store/apps/details?id=com.orphinsoftwares.spirdy&ah=WZjXGXTEoDpXkecGBTK4ojEMpdE",
         text: "Project",
         source2: "https://github.com/keithholler/spirdy",
         text2: "GitHub",
       },
     ],
   },
-  
- 
+
   {
     id: 3,
-    typename: "React Native",
-    projectname: "Nucamp App",
-    image: "./assets/images/reactnativefront.png",
-    about: "React Native version of the React Campsite Project",
-    logos: [
-     
-      {
-        id: 0,
-        image: "./assets/images/csslogo.png",
-        text: "CSS",
-      },
-      {
-        id: 1,
-        image: "./assets/images/javascriptlogo.png",
-        text: "Javascript",
-      },
-      {
-        id: 2,
-        image: "./assets/images/reduxlogo.png",
-        text: "Redux",
-      },
-      {
-        id: 3,
-        image: "./assets/images/reactlogo.png",
-        text: "React Native",
-      },
-      {
-        id: 4,
-        image: "./assets/images/jsonlogo.png",
-        text: "Json Server",
-      },
-    ],
-    links: [
-      {
-        id: 0,
-        source: "https://drive.google.com/file/d/1dhkNPJE4jcM6JQOao48HFbQew5omaC5f/view?usp=sharing",
-        text: "Project",
-        source2: "https://github.com/keithholler/ReactNative",
-        text2: "GitHub",
-      },
-    ],
-  },
-  {
-    id: 4,
     typename: "Personal Profile",
     projectname: "(With React)",
     image: "./assets/images/profilereactcardfront.png",
@@ -196,6 +150,51 @@ export const PROJECTS = [
       },
     ],
   },
+  {
+    id: 4,
+    typename: "React Native",
+    projectname: "Nucamp App",
+    image: "./assets/images/reactnativefront.png",
+    about: "React Native version of the React Campsite Project",
+    logos: [
+      {
+        id: 0,
+        image: "./assets/images/csslogo.png",
+        text: "CSS",
+      },
+      {
+        id: 1,
+        image: "./assets/images/javascriptlogo.png",
+        text: "Javascript",
+      },
+      {
+        id: 2,
+        image: "./assets/images/reduxlogo.png",
+        text: "Redux",
+      },
+      {
+        id: 3,
+        image: "./assets/images/reactlogo.png",
+        text: "React Native",
+      },
+      {
+        id: 4,
+        image: "./assets/images/jsonlogo.png",
+        text: "Json Server",
+      },
+    ],
+    links: [
+      {
+        id: 0,
+        source:
+          "https://drive.google.com/file/d/1dhkNPJE4jcM6JQOao48HFbQew5omaC5f/view?usp=sharing",
+        text: "Project",
+        source2: "https://github.com/keithholler/ReactNative",
+        text2: "GitHub",
+      },
+    ],
+  },
+
   {
     id: 5,
     typename: "Personal Profile",
@@ -282,14 +281,14 @@ export const PROJECTS = [
         id: 0,
         source:
           "https://keithholler.github.io/pics/React%20App%20-%20Google%20Chrome%202020-10-03%2011-22-57.mp4",
-          
+
         text: "Project",
         source2: "https://github.com/keithholler/React",
         text2: "GitHub",
       },
     ],
   },
-  
+
   {
     id: 7,
     typename: "Bootstrap Projects",
@@ -381,5 +380,4 @@ export const PROJECTS = [
       },
     ],
   },
-  
 ];
