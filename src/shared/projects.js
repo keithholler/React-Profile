@@ -43,7 +43,7 @@ export const PROJECTS = [
     typename: "React Bootstrap",
     projectname: "My IKEA",
     image: "./assets/images/ikeafront.png",
-    about: " Re-created the home page of IKEA with React and Bootstrap",
+    about: "Re-created the home page of IKEA with React and Bootstrap",
     logos: [
      
       {
@@ -77,10 +77,40 @@ export const PROJECTS = [
       },
     ],
   },
+
+  {
+    id: 2,
+    typename: "LUA Corona SDK",
+    projectname: "Spirdy",
+    image: "./assets/images/spirdyfront.png",
+    about: "In collaboration with another colleague, created a mobile game using Corona SDK to challange our selves in learning a new programming language",
+    logos: [
+     
+      {
+        id: 0,
+        image: "./assets/images/coronaLogo.png",
+        text: "",
+      },
+      {
+        id: 1,
+        image: "./assets/images/luaLogo.png",
+        text: "",
+      },
+    ],
+    links: [
+      {
+        id: 0,
+        source: "https://play.google.com/store/apps/details?id=com.orphinsoftwares.spirdy&ah=WZjXGXTEoDpXkecGBTK4ojEMpdE",
+        text: "Project",
+        source2: "https://github.com/keithholler/spirdy",
+        text2: "GitHub",
+      },
+    ],
+  },
   
  
   {
-    id: 2,
+    id: 3,
     typename: "React Native",
     projectname: "Nucamp App",
     image: "./assets/images/reactnativefront.png",
@@ -124,7 +154,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     typename: "Personal Profile",
     projectname: "(With React)",
     image: "./assets/images/profilereactcardfront.png",
@@ -167,7 +197,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     typename: "Personal Profile",
     projectname: "(Non React)",
     image: "./assets/images/profilecardfront.jpg",
@@ -210,7 +240,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     typename: "React Project",
     projectname: "Camping Site",
     image: "./assets/images/reactsoon.jpg",
@@ -261,7 +291,7 @@ export const PROJECTS = [
   },
   
   {
-    id: 6,
+    id: 7,
     typename: "Bootstrap Projects",
     projectname: "Camping Site",
     image: "./assets/images/campingcardfront.jpg",
@@ -305,7 +335,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     typename: "Bootstrap Projects",
     projectname: "Music School",
     image: "./assets/images/musiccardfront.jpg",
