@@ -82,7 +82,7 @@ export const PROJECTS = [
     projectname: "Spirdy",
     image: "./assets/images/spirdyfront.png",
     about:
-      "In collaboration with another colleague, created a mobile game using Corona SDK to challange our selves in learning a new programming language",
+      "In collaboration with another colleague, created a mobile game using Corona SDK to challange ourselves in learning a new programming language",
     logos: [
       {
         id: 0,
