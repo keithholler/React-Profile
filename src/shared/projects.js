@@ -89,12 +89,12 @@ export const PROJECTS = [
       {
         id: 0,
         image: "./assets/images/coronaLogo.png",
-        text: "",
+        text: "CoronaSDK",
       },
       {
         id: 1,
         image: "./assets/images/luaLogo.png",
-        text: "",
+        text: "LUA",
       },
     ],
     links: [
