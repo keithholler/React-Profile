@@ -16,6 +16,15 @@ class App extends Component {
       projects: PROJECTS,
     };
   }
+
+  componentDidMount() {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "//code.tidio.co/npeitk56r3czlx9cr8wd2ocwdsqah1bo.js";
+
+    // For body
+    document.body.appendChild(script);
+  }
   render() {
     return (
       <div className="App">
